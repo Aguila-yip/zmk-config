@@ -54,10 +54,10 @@
 
             display-name = "Sys. & numKey";
             bindings = <
-&none   &bt BT_SEL 0  &bt BT_SEL 1  &none         &none      &sys_reset                        &none      &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                     &none
+&none   &bt BT_SEL 0  &bt BT_SEL 1  &none         &none      &sys_reset                        &none      &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                     &kp BACKSPACE
 &none   &none         &none         &kp UP_ARROW  &none      &none                             &kp F7     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS                      &none
-&trans  &kp HOME      &kp LEFT      &kp DOWN      &kp RIGHT  &kp END                           &kp CARET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &PAT_Tap_Hold ASTERISK SLASH  &trans
-&trans  &none         &none         &none         &none      &none       &bt BT_CLR    &trans  &none      &kp NUMBER_0  &kp NUMBER_0  &kp DOT       &kp SLASH                     &kp PIPE
+&trans  &kp HOME      &kp LEFT      &kp DOWN      &kp RIGHT  &kp END                           &kp CARET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &PAT_Tap_Hold SQT SEMICOLON   &trans
+&trans  &none         &none         &none         &none      &none       &bt BT_CLR    &trans  &none      &kp NUMBER_0  &kp NUMBER_0  &kp DOT       &PAT_Tap_Hold ASTERISK SLASH  &kp PIPE
                                     &bootloader   &trans     &trans      &trans        &trans  &trans     &trans        &trans
             >;
 
@@ -74,11 +74,11 @@
 
             display-name = "Second Layer";
             bindings = <
-&kp GRAVE  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                  &kp F6       &kp F7     &kp F8       &kp F9    &kp F10   &sys_reset
-&none      &kp F11  &kp F12  &none   &none   &none                   &none        &none      &none        &none     &none     &none
-&trans     &none    &none    &none   &none   &none                   &none        &none      &none        &none     &none     &none
-&trans     &none    &none    &none   &none   &none   &none    &none  &kp KP_PLUS  &kp MINUS  &kp EQUAL    &kp LBKT  &kp RBKT  &trans
-                             &trans  &none   &none   &none    &none  &trans       &trans     &bootloader
+&kp GRAVE  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                  &kp F6                                            &kp F7                     &kp F8       &kp F9  &kp F10  &sys_reset
+&none      &kp F11  &kp F12  &none   &none   &none                   &none                                             &none                      &none        &none   &none    &none
+&trans     &none    &none    &none   &none   &none                   &PAT_Tap_Hold RIGHT_PARENTHESIS LEFT_PARENTHESIS  &PAT_Tap_Hold EQUAL MINUS  &none        &none   &none    &none
+&trans     &none    &none    &none   &none   &none   &none    &none  &none                                             &none                      &none        &none   &none    &trans
+                             &trans  &none   &none   &none    &none  &trans                                            &trans                     &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
