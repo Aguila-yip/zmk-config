@@ -31,7 +31,7 @@
 
         CallAjust {
             bindings = <&mo 3>;
-            key-positions = <53 54 0>;
+            key-positions = <53 54>;
             require-prior-idle-ms = <200>;
             layers = <3>;
         };
