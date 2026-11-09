@@ -31,19 +31,22 @@
 
         CallAjust {
             bindings = <&mo 3>;
-            key-positions = <53 54>;
+            key-positions = <53 54 53 54 53 54>;
             require-prior-idle-ms = <200>;
-            layers = <3>;
+            layers = <0>;
         };
 
         CallLeft {
             bindings = <&mo 1>;
             key-positions = <36 53>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
         };
 
         CallRight {
             bindings = <&mo 2>;
             key-positions = <54 49>;
+            layers = <0>;
         };
     };
 
