@@ -21,6 +21,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <28 27>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
