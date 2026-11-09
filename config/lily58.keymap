@@ -28,6 +28,23 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <28 27>;
         };
+
+        CallAjust {
+            bindings = <&mo 3>;
+            key-positions = <53 54 0>;
+            require-prior-idle-ms = <200>;
+            layers = <3>;
+        };
+
+        CallLeft {
+            bindings = <&mo 1>;
+            key-positions = <36 53>;
+        };
+
+        CallRight {
+            bindings = <&mo 2>;
+            key-positions = <54 49>;
+        };
     };
 
     keymap {
