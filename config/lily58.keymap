@@ -49,6 +49,12 @@
             layers = <0>;
             require-prior-idle-ms = <200>;
         };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <31 32>;
+            layers = <0>;
+        };
     };
 
     keymap {
