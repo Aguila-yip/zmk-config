@@ -90,11 +90,11 @@
 
             display-name = "Sys. & numKey";
             bindings = <
-&none   &none     &none     &kp PG_UP      &none      &sys_reset                        &studio_unlock                &kp N7        &kp NUMBER_8  &kp NUMBER_9  &none                         &kp BACKSPACE
-&none   &none     &none     &kp UP_ARROW   &none      &none                             &none                         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none                         &none
-&trans  &kp HOME  &kp LEFT  &kp DOWN       &kp RIGHT  &kp END                           &PAT_Tap_Hold ASTERISK SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &PAT_Tap_Hold MINUS PLUS      &trans
-&trans  &none     &none     &kp PAGE_DOWN  &none      &none       &bt BT_CLR    &trans  &none                         &kp NUMBER_0  &kp NUMBER_0  &kp DOT       &PAT_Tap_Hold ASTERISK SLASH  &trans
-                            &bootloader    &mo 3      &trans      &trans        &trans  &trans                        &trans        &trans
+&none   &none     &none     &kp PG_UP      &none      &none                          &studio_unlock                &kp N7        &kp NUMBER_8  &kp NUMBER_9  &none                         &kp BACKSPACE
+&none   &none     &none     &kp UP_ARROW   &none      &none                          &none                         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none                         &none
+&trans  &kp HOME  &kp LEFT  &kp DOWN       &kp RIGHT  &kp END                        &PAT_Tap_Hold ASTERISK SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &PAT_Tap_Hold MINUS PLUS      &trans
+&trans  &none     &none     &kp PAGE_DOWN  &none      &none    &bt BT_CLR    &trans  &none                         &kp NUMBER_0  &kp NUMBER_0  &kp DOT       &PAT_Tap_Hold ASTERISK SLASH  &trans
+                            &bootloader    &mo 3      &trans   &trans        &trans  &trans                        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -123,11 +123,11 @@
         Adjust {
             display-name = "for System";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none                  &none   &none   &none        &none  &none  &none
-&none       &none         &none         &none         &none  &none                  &none   &none   &none        &none  &none  &none
-&trans      &none         &none         &none         &none  &none                  &none   &none   &none        &none  &none  &none
-&trans      &none         &none         &none         &none  &none  &none    &none  &none   &none   &none        &none  &none  &trans
-                                        &trans        &none  &none  &none    &none  &trans  &trans  &bootloader
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &sys_reset                  &none   &none   &none        &none  &none  &none
+&none       &none         &none         &none         &none  &none                       &none   &none   &none        &none  &none  &none
+&trans      &none         &none         &none         &none  &none                       &none   &none   &none        &none  &none  &none
+&trans      &none         &none         &none         &none  &none       &none    &none  &none   &none   &none        &none  &none  &trans
+                                        &trans        &none  &none       &none    &none  &trans  &trans  &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
