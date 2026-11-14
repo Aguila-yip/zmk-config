@@ -26,14 +26,7 @@
 
         Backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <28 27>;
-        };
-
-        CallAjust {
-            bindings = <&mo 0>;
-            key-positions = <53 54 53 54 53 54>;
-            require-prior-idle-ms = <200>;
-            layers = <0>;
+            key-positions = <31 32>;
         };
 
         CallLeft {
@@ -52,7 +45,7 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <31 32>;
+            key-positions = <26 27 28>;
             layers = <0>;
         };
     };
