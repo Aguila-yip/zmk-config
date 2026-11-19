@@ -94,7 +94,7 @@
 &none   &none     &none     &kp UP_ARROW   &none      &none                         &none                                             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &PAT_Tap_Hold AMPERSAND PERCENT  &none
 &trans  &kp HOME  &kp LEFT  &kp DOWN       &kp RIGHT  &kp END                       &mkp RCLK                                         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &PAT_Tap_Hold MINUS PLUS         &trans
 &trans  &none     &none     &kp PAGE_DOWN  &none      &none    &trans    &mkp LCLK  &PAT_Tap_Hold RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp NUMBER_0  &kp NUMBER_0  &kp DOT       &PAT_Tap_Hold ASTERISK SLASH     &trans
-                            &bootloader    &mo 3      &trans   &trans    &trans     &trans                                            &trans        &trans
+                            &none          &mo 3      &trans   &trans    &trans     &trans                                            &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -114,7 +114,7 @@
 &none      &kp F11  &kp F12  &none   &none   &none                   &none                                             &none                      &none                        &none                         &none                            &none
 &trans     &none    &none    &none   &none   &none                   &PAT_Tap_Hold RIGHT_PARENTHESIS LEFT_PARENTHESIS  &PAT_Tap_Hold EQUAL MINUS  &PAT_Tap_Hold MINUS KP_PLUS  &PAT_Tap_Hold ASTERISK SLASH  &PAT_Tap_Hold PERCENT AMPERSAND  &kp CARET
 &trans     &none    &none    &none   &none   &none   &none    &none  &none                                             &none                      &none                        &none                         &none                            &trans
-                             &trans  &none   &none   &none    &none  &trans                                            &mo 3                      &bootloader
+                             &trans  &none   &none   &none    &none  &trans                                            &mo 3                      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
