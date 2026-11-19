@@ -53,7 +53,6 @@
         Call_M_Layer {
             bindings = <&mo 4>;
             key-positions = <25 26 27>;
-            timeout-ms = <200>;
         };
     };
 
